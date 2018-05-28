@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED92DE3520BB88320068D560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE3420BB88320068D560 /* AppDelegate.m */; };
+		ED92DE3B20BB88320068D560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED92DE3920BB88320068D560 /* Main.storyboard */; };
+		ED92DE3D20BB88340068D560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED92DE3C20BB88340068D560 /* Assets.xcassets */; };
+		ED92DE4020BB88340068D560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED92DE3E20BB88340068D560 /* LaunchScreen.storyboard */; };
+		ED92DE4320BB88340068D560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE4220BB88340068D560 /* main.m */; };
+		ED92DE6420BB887E0068D560 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED92DE6320BB887E0068D560 /* AVFoundation.framework */; };
+		ED92DE7320BB8F630068D560 /* FileHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE6D20BB8F630068D560 /* FileHandleTool.m */; };
+		ED92DE7420BB8F630068D560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7120BB8F630068D560 /* ViewController.m */; };
+		ED92DE7520BB8F630068D560 /* AVPlayerChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7220BB8F630068D560 /* AVPlayerChildController.m */; };
+		ED92DE8120BB8F950068D560 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7720BB8F950068D560 /* SVRadialGradientLayer.m */; };
+		ED92DE8220BB8F950068D560 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7A20BB8F950068D560 /* SVProgressAnimatedView.m */; };
+		ED92DE8320BB8F950068D560 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7D20BB8F950068D560 /* SVProgressHUD.m */; };
+		ED92DE8420BB8F950068D560 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED92DE7E20BB8F950068D560 /* SVIndefiniteAnimatedView.m */; };
+		ED92DE8520BB8F950068D560 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED92DE7F20BB8F950068D560 /* SVProgressHUD.bundle */; };
+		ED92DE8720BB90710068D560 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED92DE8620BB90710068D560 /* test.mp4 */; };
+		ED92DE9520BB999B0068D560 /* faststarVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED92DE9420BB999B0068D560 /* faststarVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED92DE3020BB88320068D560 /* FaststarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaststarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED92DE3320BB88320068D560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED92DE3420BB88320068D560 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED92DE3A20BB88320068D560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED92DE3C20BB88340068D560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED92DE3F20BB88340068D560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED92DE4120BB88340068D560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED92DE4220BB88340068D560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED92DE6320BB887E0068D560 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED92DE6D20BB8F630068D560 /* FileHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandleTool.m; sourceTree = "<group>"; };
+		ED92DE6E20BB8F630068D560 /* FileHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandleTool.h; sourceTree = "<group>"; };
+		ED92DE6F20BB8F630068D560 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED92DE7020BB8F630068D560 /* AVPlayerChildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerChildController.h; sourceTree = "<group>"; };
+		ED92DE7120BB8F630068D560 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED92DE7220BB8F630068D560 /* AVPlayerChildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerChildController.m; sourceTree = "<group>"; };
+		ED92DE7720BB8F950068D560 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		ED92DE7820BB8F950068D560 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		ED92DE7920BB8F950068D560 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		ED92DE7A20BB8F950068D560 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		ED92DE7B20BB8F950068D560 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		ED92DE7C20BB8F950068D560 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		ED92DE7D20BB8F950068D560 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		ED92DE7E20BB8F950068D560 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		ED92DE7F20BB8F950068D560 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		ED92DE8020BB8F950068D560 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		ED92DE8620BB90710068D560 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		ED92DE9420BB999B0068D560 /* faststarVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = faststarVideo.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED92DE2D20BB88320068D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92DE9520BB999B0068D560 /* faststarVideo.framework in Frameworks */,
+				ED92DE6420BB887E0068D560 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED92DE2720BB88320068D560 = {
+			isa = PBXGroup;
+			children = (
+				ED92DE3220BB88320068D560 /* FaststarDemo */,
+				ED92DE3120BB88320068D560 /* Products */,
+				ED92DE6220BB887D0068D560 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED92DE3120BB88320068D560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED92DE3020BB88320068D560 /* FaststarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED92DE3220BB88320068D560 /* FaststarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED92DE7620BB8F950068D560 /* SVProgressHUD */,
+				ED92DE7020BB8F630068D560 /* AVPlayerChildController.h */,
+				ED92DE7220BB8F630068D560 /* AVPlayerChildController.m */,
+				ED92DE8620BB90710068D560 /* test.mp4 */,
+				ED92DE6E20BB8F630068D560 /* FileHandleTool.h */,
+				ED92DE6D20BB8F630068D560 /* FileHandleTool.m */,
+				ED92DE6F20BB8F630068D560 /* ViewController.h */,
+				ED92DE7120BB8F630068D560 /* ViewController.m */,
+				ED92DE3320BB88320068D560 /* AppDelegate.h */,
+				ED92DE3420BB88320068D560 /* AppDelegate.m */,
+				ED92DE3920BB88320068D560 /* Main.storyboard */,
+				ED92DE3C20BB88340068D560 /* Assets.xcassets */,
+				ED92DE3E20BB88340068D560 /* LaunchScreen.storyboard */,
+				ED92DE4120BB88340068D560 /* Info.plist */,
+				ED92DE4220BB88340068D560 /* main.m */,
+			);
+			path = FaststarDemo;
+			sourceTree = "<group>";
+		};
+		ED92DE6220BB887D0068D560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED92DE9420BB999B0068D560 /* faststarVideo.framework */,
+				ED92DE6320BB887E0068D560 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED92DE7620BB8F950068D560 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				ED92DE7720BB8F950068D560 /* SVRadialGradientLayer.m */,
+				ED92DE7820BB8F950068D560 /* SVIndefiniteAnimatedView.h */,
+				ED92DE7920BB8F950068D560 /* SVProgressHUD.h */,
+				ED92DE7A20BB8F950068D560 /* SVProgressAnimatedView.m */,
+				ED92DE7B20BB8F950068D560 /* SVProgressHUD-Prefix.pch */,
+				ED92DE7C20BB8F950068D560 /* SVRadialGradientLayer.h */,
+				ED92DE7D20BB8F950068D560 /* SVProgressHUD.m */,
+				ED92DE7E20BB8F950068D560 /* SVIndefiniteAnimatedView.m */,
+				ED92DE7F20BB8F950068D560 /* SVProgressHUD.bundle */,
+				ED92DE8020BB8F950068D560 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED92DE2F20BB88320068D560 /* FaststarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED92DE4620BB88340068D560 /* Build configuration list for PBXNativeTarget "FaststarDemo" */;
+			buildPhases = (
+				ED92DE2C20BB88320068D560 /* Sources */,
+				ED92DE2D20BB88320068D560 /* Frameworks */,
+				ED92DE2E20BB88320068D560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaststarDemo;
+			productName = FaststarDemo;
+			productReference = ED92DE3020BB88320068D560 /* FaststarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED92DE2820BB88320068D560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chrise.le;
+				TargetAttributes = {
+					ED92DE2F20BB88320068D560 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = ED92DE2B20BB88320068D560 /* Build configuration list for PBXProject "FaststarDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED92DE2720BB88320068D560;
+			productRefGroup = ED92DE3120BB88320068D560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED92DE2F20BB88320068D560 /* FaststarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED92DE2E20BB88320068D560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92DE4020BB88340068D560 /* LaunchScreen.storyboard in Resources */,
+				ED92DE3D20BB88340068D560 /* Assets.xcassets in Resources */,
+				ED92DE3B20BB88320068D560 /* Main.storyboard in Resources */,
+				ED92DE8720BB90710068D560 /* test.mp4 in Resources */,
+				ED92DE8520BB8F950068D560 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED92DE2C20BB88320068D560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED92DE7520BB8F630068D560 /* AVPlayerChildController.m in Sources */,
+				ED92DE8320BB8F950068D560 /* SVProgressHUD.m in Sources */,
+				ED92DE8420BB8F950068D560 /* SVIndefiniteAnimatedView.m in Sources */,
+				ED92DE8120BB8F950068D560 /* SVRadialGradientLayer.m in Sources */,
+				ED92DE4320BB88340068D560 /* main.m in Sources */,
+				ED92DE8220BB8F950068D560 /* SVProgressAnimatedView.m in Sources */,
+				ED92DE7420BB8F630068D560 /* ViewController.m in Sources */,
+				ED92DE7320BB8F630068D560 /* FileHandleTool.m in Sources */,
+				ED92DE3520BB88320068D560 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED92DE3920BB88320068D560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED92DE3A20BB88320068D560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED92DE3E20BB88340068D560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED92DE3F20BB88340068D560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED92DE4420BB88340068D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED92DE4520BB88340068D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED92DE4720BB88340068D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B9C5Q5SKR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FaststarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chrise.FaststarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		ED92DE4820BB88340068D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B9C5Q5SKR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FaststarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chrise.FaststarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED92DE2B20BB88320068D560 /* Build configuration list for PBXProject "FaststarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92DE4420BB88340068D560 /* Debug */,
+				ED92DE4520BB88340068D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED92DE4620BB88340068D560 /* Build configuration list for PBXNativeTarget "FaststarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED92DE4720BB88340068D560 /* Debug */,
+				ED92DE4820BB88340068D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED92DE2820BB88320068D560 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module faststarVideo {
+  umbrella header "faststarVideo.h"
+
+  export *
+  module * { export * }
+}
